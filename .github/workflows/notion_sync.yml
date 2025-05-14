@@ -22,4 +22,5 @@ jobs:
           pip install openai==0.28 feedparser requests notion-client yfinance wordcloud matplotlib
 
       - name: Run daily summary
-        run: python scripts/daily_summary.py
+        run: python ai-notion-automation-full/scripts/daily_summary.py
+
